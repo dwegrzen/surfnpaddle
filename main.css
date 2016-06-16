@@ -1,0 +1,38 @@
+* {
+  border: 1px solid red;
+  color:white;
+}
+
+header .container {
+  background:
+  linear-gradient(rgba(143, 143, 143, 0.5),rgba(143, 143, 143, 0.5)),
+  url(header.jpg);
+  background-size:cover;
+  height:40vw;
+}
+
+#logo{
+  display:inline;
+  width:1.75vw;
+}
+
+header h5 {
+  color:#0C3450;
+  display:inline;
+}
+
+header h1 {
+  color:white;
+  font-size: 6vw;
+  margin-top:13vw;
+}
+
+header h6{
+color:#0C3450;
+margin-top: 0;
+}
+
+#searchicon{
+  display:inline;
+  width:1.3vw;
+}
