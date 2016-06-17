@@ -17,7 +17,11 @@ header .container {
 
 #postersmall{
   display:inline;
-  width:30px
+  width:30px;
+}
+
+#poster{
+  width:100px;
 }
 
 header h5 {
@@ -39,6 +43,10 @@ margin-top: 0;
 #searchicon{
   display:inline;
   width:1.3vw;
+}
+
+#glyph{
+
 }
 
 main h5{
