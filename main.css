@@ -104,7 +104,7 @@ header h6 {
 .rightfooter li {
   display: inline;
   padding:0 10px;
-  border-left:#000 solid 1px;
+  border-left:#777777 solid 1px;
 }
 li:first-child {
   border-left: 0}
