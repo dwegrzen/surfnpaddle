@@ -3,10 +3,9 @@
   color:black;
 }
 header .container {
-  background:
-  linear-gradient(rgba(143, 143, 143, 0.5),rgba(143, 143, 143, 0.5)),
-  url(header.jpg);
+  background:linear-gradient(rgba(143, 143, 143, 0.5),rgba(143, 143, 143, 0.5)),url(header.jpg);
   background-size:cover;
+  /*background-attachment: fixed;*/
   height:40vw;
 }
 
@@ -21,7 +20,13 @@ header .container {
 }
 
 #poster{
-  width:100px;
+  width:75px;
+  margin-top: 30px;
+}
+
+#adpic{
+  object-fit: cover;
+  height: 30vw;
 }
 
 header h5 {
@@ -45,9 +50,27 @@ margin-top: 0;
   width:1.3vw;
 }
 
-#glyph{
-
+.rc{
+  padding-left:30px;
+  padding-right:30px;
 }
+
+.footerpic{
+width:100%;
+height:250px;
+object-fit: cover;
+}
+
+.fp{
+  padding:0;
+}
+
+.fp h3{
+  margin-top:-50px;
+}
+/*.1{
+
+}*/
 
 main h5{
   display:inline;
