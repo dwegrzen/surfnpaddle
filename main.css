@@ -1,17 +1,26 @@
+* {
+  font-family:Tahoma;
+}
+
+* a {
+  color:none;
+}
+
 header .container {
-    background: linear-gradient(rgba(143, 143, 143, 0.5), rgba(143, 143, 143, 0.5)), url(header.jpg);
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(header.jpg);
     background-size: cover;
-    /*background-attachment: fixed;*/
     height: 40vw;
 }
 
 .navleft{
+  /*position:fixed;*/
   display:flex;
   justify-content: flex-start;
   align-items: center;
 }
 
 .navright{
+  /*position:fixed;*/
   display:flex;
   justify-content: flex-end;
   align-items: center;
@@ -44,11 +53,18 @@ header .container {
 header h5 {
     color: #083451;
     display: inline;
+    margin-left:10px;
 }
+header a{
+  text-decoration: none;
+  color:#083451;
+}
+
 header h1 {
     color: white;
     font-size: 6vw;
     margin-top: 10vw;
+    font-family:Tahoma;
 }
 header h6 {
     color: #083451;
@@ -61,8 +77,11 @@ header h6 {
 
 .lc h1{
   color:#083451;
-  font-family:Arial Narrow;
-  font-size:40px;
+  font-weight:normal;
+}
+
+.lc h5{
+  color:#2369A6;
 }
 
 
@@ -79,14 +98,25 @@ header h6 {
 
 .rc p{
   margin-bottom:30px
+  margin-left:10px
+  color:#BDC2C8
+}
+
+.rc a{
+  color:none;
 }
 
 .ad {
-    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/280/300?random);
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(https://unsplash.it/280/300?random);
     background-size: cover;
     height:22vw;
     margin:0px;
 
+}
+
+.container-fluid{
+  border-bottom:1px solid #E9E9E9;
+  padding:30px;
 }
 
 .footerpic {
@@ -101,24 +131,43 @@ header h6 {
     height: 250px;
 }
 .LL {
-    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/300/300?random);
+    transition: all 0.5 ease;
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(https://unsplash.it/300/300?random);
     background-size: cover;
 }
+.LL:hover{
+    background:url(https://unsplash.it/300/300?random);
+    background-size: cover;
+}
+
 .LC {
-    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/400/300?random);
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(https://unsplash.it/400/300?random);
     background-size: cover;
 }
+.LC:hover {
+    background:url(https://unsplash.it/400/300?random);
+    background-size: cover;
+  }
 .RC {
-    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/280/325?random);
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(https://unsplash.it/280/325?random);
+    background-size: cover;
+}
+.RC:hover {
+    background:url(https://unsplash.it/280/325?random);
     background-size: cover;
 }
 .RR {
-    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/250/301?random);
+    background: linear-gradient(rgba(0, 89, 147, 0.5), rgba(0, 89, 147, 0.5)), url(https://unsplash.it/250/301?random);
+    background-size: cover;
+}
+.RR:hover {
+    background:url(https://unsplash.it/250/301?random);
     background-size: cover;
 }
 .fp h3 {
   font-size: 20px;
 }
+
 .fnav {
   background-color:#083451;
   display: flex;
@@ -139,32 +188,37 @@ header h6 {
 .rightfooter{
   display:flex;
   justify-content: center;
-  /*align-content: center;*/
 }
+
 .rightfooter ul {
-  list-style: none;
   margin:0;
 }
+
 .rightfooter li {
-  display: inline-block;
-  padding:0 10px;
   border-left:#777777 solid 1px;
 }
+
 li:first-child {
   border-left: 0}
 
 
 footer h6 {
-    display: inline;
+ display: inline;
 }
 footer h1{
   color:#083451;
-  font-family:Arial Narrow;
-  font-weight: bold;
 }
-footer h3{
+footer h4{
   color:#083451;
+  font-size: 24px;
+  padding-left:10px;
+  font-weight: bold;
+
 }
+
+/*footer h3:hover{
+  color:white;
+}*/
 
 main h5 {
     display: inline;
