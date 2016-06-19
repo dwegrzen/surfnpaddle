@@ -1,20 +1,37 @@
-* {
-    border: 1px solid rgb(16, 102, 247);
-    color: black;
-}
 header .container {
     background: linear-gradient(rgba(143, 143, 143, 0.5), rgba(143, 143, 143, 0.5)), url(header.jpg);
     background-size: cover;
     /*background-attachment: fixed;*/
     height: 40vw;
 }
+
+.navleft{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navright{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
 #logo {
     display: inline;
-    width: 1.75vw;
+    height: 25px;
+    margin:5px;
 }
+
+#searchicon {
+    display: inline;
+    height:15px;
+}
+
 #postersmall {
     display: inline;
-    width: 30px;
+    width: 25px;
 }
 #poster {
     width: 75px;
@@ -25,26 +42,53 @@ header .container {
     height: 30vw;
 }
 header h5 {
-    color: #0C3450;
+    color: #083451;
     display: inline;
 }
 header h1 {
     color: white;
     font-size: 6vw;
-    margin-top: 13vw;
+    margin-top: 10vw;
 }
 header h6 {
-    color: #0C3450;
+    color: #083451;
     margin-top: 0;
 }
-#searchicon {
-    display: inline;
-    width: 1.3vw;
+
+.postertag {
+  margin-bottom:20px;
 }
+
+.lc h1{
+  color:#083451;
+  font-family:Arial Narrow;
+  font-size:40px;
+}
+
+
+
+
 .rc {
     padding-left: 30px;
     padding-right: 30px;
 }
+.rc h4{
+  margin-bottom:0;
+  color:#2369A6;
+}
+
+.rc p{
+  margin-bottom:30px
+}
+
+.ad {
+    background: linear-gradient(rgba(5, 114, 134, 0.5), rgba(143, 143, 143, 0.5)), url(https://unsplash.it/280/300?random);
+    background-size: cover;
+    height:22vw;
+    margin:0px;
+
+}
+
 .footerpic {
     width: 100%;
     height: 250px;
@@ -102,7 +146,7 @@ header h6 {
   margin:0;
 }
 .rightfooter li {
-  display: inline;
+  display: inline-block;
   padding:0 10px;
   border-left:#777777 solid 1px;
 }
@@ -112,6 +156,14 @@ li:first-child {
 
 footer h6 {
     display: inline;
+}
+footer h1{
+  color:#083451;
+  font-family:Arial Narrow;
+  font-weight: bold;
+}
+footer h3{
+  color:#083451;
 }
 
 main h5 {
